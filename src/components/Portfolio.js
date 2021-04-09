@@ -25,7 +25,7 @@ const Portfolio = () => {
         </div>
         <MDBRow style={{ margin: "25px" }}>
 
-          <MDBCol md="4">
+          <MDBCol md="4" sm="8" style={{paddingBottom:"10px"}}>
             <MDBCard cascade>
               <MDBCardImage
                 cascade
@@ -57,7 +57,7 @@ const Portfolio = () => {
 
 
 
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingBottom:"10px"}}>
             <MDBCard cascade>
               <MDBCardImage
                 cascade
@@ -87,7 +87,7 @@ const Portfolio = () => {
             </MDBCard>
           </MDBCol>
 
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingBottom:"10px"}}>
             <MDBCard cascade>
               <MDBCardImage style={{ height: "" }}
                 cascade
@@ -126,7 +126,7 @@ const Portfolio = () => {
           </MDBCol>
         </MDBRow>
         <MDBRow style={{ margin: "25px", justifyContent:"center" }}>
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingBottom:"10px"}}>
             <MDBCard cascade>
               <MDBCardImage style={{ height: "250px" }}
                 cascade
@@ -166,7 +166,7 @@ const Portfolio = () => {
 
 
 
-          <MDBCol md="4">
+          <MDBCol md="4" style={{paddingBottom:"10px"}}>
             <MDBCard cascade>
               <MDBCardImage style={{ height: "250px" }}
                 cascade
