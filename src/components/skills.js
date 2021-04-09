@@ -29,7 +29,7 @@ class Skills extends Component {
                 <div className="col-md-10 mt-4 text-center">
                     <div className="col-md-12">
                         <div className="header-col">
-                            <h1 className="title-a"><span>My Skill Set</span></h1>
+                            <h1 className="title-a"><span>Skill Set</span></h1>
                         </div>
                     </div>
                     <div className="col-md-12 text-center mt-4" style={{ paddingTop: "20px" }}>

@@ -8,6 +8,9 @@ export default class Resume extends Component {
   render() {
     return (
       <section id="resume">
+        <div className="header-col text-center mb-4">
+          <h1 className="title-a"><span style={{ color: "#170707", fontSize: "3rem" }}>Highlights</span></h1>
+        </div>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

@@ -283,13 +283,18 @@ ul#nav li.current a { color: #150a02; }
 border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
  }
+
+ #contact .title-a span{
+   border-bottom: 3px solid #11ABB0;
+       padding-bottom: 6px;
+    }
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
    background: #f6c0c0;
-   padding-top: 90px;
+   padding-top: 50px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -845,7 +850,7 @@ call-to-action .button {
    padding-bottom: 50px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+/* #contact .section-head { margin-bottom: 42px; } */
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -857,7 +862,7 @@ call-to-action .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
+/* #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
@@ -867,7 +872,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+} */
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -928,10 +933,10 @@ call-to-action .button {
 	color: #0D0D0D;
 	background: #fff;
 }
-#contact span.required {
+/* #contact span.required {
 	color: #11ABB0;
 	font-size: 13px;
-}
+} */
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
@@ -1156,8 +1161,45 @@ footer .social-links li:first-child { margin-left: 0; }
    border-bottom: 3px solid #11ABB0;
        padding-bottom: 6px;
     }
-#conatct .title-a span{
+/* #conatct .title-a span{
       border-bottom: 3px solid #11ABB0;
           padding-bottom: 6px;
-       }
- 
+       } */
+       #resume .title-a span{
+         border-bottom: 3px solid #11ABB0;
+             padding-bottom: 6px;
+          }
+
+          #work {
+            padding-top: 50px;
+            padding-bottom: 72px;
+            overflow: hidden;
+            background-color: black;
+         }
+
+         #work .title-a span{
+            border-bottom: 3px solid #11ABB0;
+                padding-bottom: 6px;
+             }
+
+             #work .card .card-body .card-text {
+               font-size: 1.2rem;
+               font-weight: 500;
+               color: #2a2b38;
+           }
+
+
+
+           #contact .social {
+            
+            padding: 0;
+            font-size: 30px;
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+         }
+         #contact .social li {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 0;
+         }
+         #contact .social li a { color: #fff; }
+         #contact .social li a:hover { color: #11ABB0; }

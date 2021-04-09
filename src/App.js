@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import Skills from "./components/skills"
+import 'mdbreact/dist/css/mdb.css';
 class App extends Component {
   render() {
     return (

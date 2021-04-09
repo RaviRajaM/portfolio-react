@@ -6,7 +6,9 @@ export default class ContactUs extends Component {
       <section id="contact">
         <div className="container">
 
-
+          <div className="header-col text-center mb-4">
+            <h1 className="title-a"><span style={{ color: "#170707", fontSize: "3rem" }}>Reach Me At</span></h1>
+          </div>
           <div className="row section-head">
             <div className="twelve columns">
               <p className="lead">
@@ -16,14 +18,21 @@ export default class ContactUs extends Component {
               </p>
             </div>
           </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
-              </div>
-            </aside>
+          <div className="row text-center">
+            <div className="col-md-12">
+              <ul className="social ">
+                {
+                  resumeData.socialLinks && resumeData.socialLinks.map((item) => {
+                    return (
+                      <li key={item.name}>
+                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
+
+            </div>
           </div>
         </div>
       </section>

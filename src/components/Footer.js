@@ -6,10 +6,10 @@ export default class Footer extends Component {
       <footer>
         <div className="container">
           <div className="row mt-2">
-            <div className="col-md-6 ">
+            <div className="col-md-12 text-center mt-4 mb-4">
               <p className="mb-0"> Copyright &copy;  2021 Ravi Raja Madugula. All Rights Reserved</p>
             </div>
-            <div className="col-md-6">
+            {/*  <div className="col-md-6">
               <ul className="social-links">
                 {
                   resumeData.socialLinks && resumeData.socialLinks.map((item) => {
@@ -22,7 +22,7 @@ export default class Footer extends Component {
                 }
               </ul>
 
-            </div>
+            </div> */}
             <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
           </div>
         </div>
