@@ -41,6 +41,7 @@ header {
    
 }
 
+
 /* vertically center banner section */
 header:before {
    content: '';
@@ -207,7 +208,7 @@ ul#nav li.current a { color: #150a02; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #f1e8e800;
+   /* background: #161415 url(../images/download1.jpg); */
    /* padding-left: 100px;
    padding-top: 80px;
    padding-bottom: 80px; */
@@ -216,6 +217,18 @@ ul#nav li.current a { color: #150a02; }
    justify-content: center;
    padding-top: 60px;
    padding-bottom: 100px;
+}
+
+#about {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background:wheat;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -845,7 +858,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #e5b285;
+   background: #f1e5f1;
    padding-top: 30px;
    padding-bottom: 50px;
    color: #636363;
@@ -1102,7 +1115,11 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-top: 60px;
    padding-bottom: 190px;
 }
-
+#skills .custom_style{
+   font-size: large;
+    font-style: oblique;
+    font-weight: 500;
+}
 #skills .devicon-html5-plain {
    font-size: 8rem
  }
@@ -1174,7 +1191,7 @@ footer .social-links li:first-child { margin-left: 0; }
             padding-top: 50px;
             padding-bottom: 72px;
             overflow: hidden;
-            background-color: black;
+            background-color: #1b273f;
          }
 
          #work .title-a span{

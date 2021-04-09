@@ -20,7 +20,7 @@ export default class Resume extends Component {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<SchoolIcon />}
           >
-            <h3 className="vertical-timeline-element-title"> Student at SRM University</h3>
+            <h3 className="vertical-timeline-element-title"> Student - SRM University</h3>
             <h4 className="vertical-timeline-element-subtitle">Chennai, India</h4>
             <p>
               Graduated with Honor's Bachelor's Degree in Information & Telecommunication Engineering
@@ -79,7 +79,7 @@ export default class Resume extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Develoeped a GitHub Repository Listener Search Engine.</h3>
-            <h4 className="vertical-timeline-element-subtitle">GitHub</h4>
+            {/* <h4 className="vertical-timeline-element-subtitle">GitHub</h4> */}
             <p>
               Developed a custom GitHub Repo Search Application using ReactJs,
               integrated the Application with octokit/core Restful Webservice to display the Results.

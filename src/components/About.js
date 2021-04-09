@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { FaCode } from "react-icons/fa";
+import background from "../images/download1.jpg";
 export default class About extends Component {
    moveToSkillsSection = () => {
 
