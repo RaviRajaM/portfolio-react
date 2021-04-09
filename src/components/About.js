@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { FaCode } from "react-icons/fa";
-import background from "../images/download1.jpg";
+import { Row } from 'reactstrap';
 export default class About extends Component {
    moveToSkillsSection = () => {
 
@@ -48,7 +46,7 @@ export default class About extends Component {
                            {
                               resumeData.aboutme6
                            }
-                           <a href={resumeData.portfolioSourceCode[0].url} target="_blank"><i className={resumeData.portfolioSourceCode[0].className}></i></a>
+                           <a href={resumeData.portfolioSourceCode[0].url} target="_blank" rel="noopener noreferrer"><i className={resumeData.portfolioSourceCode[0].className}></i></a>
                         </p>
                      </div>
                   </div>
