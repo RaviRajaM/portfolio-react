@@ -243,7 +243,7 @@ ul#nav li.current a { color: #150a02; }
 #about p {
    line-height: 30px;
    color: #010101;
-   font-family: cursive;
+   font-family: 'devicon';
     font-size: medium;
     padding-top: 20px;
 }

@@ -1,8 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import { Row } from 'reactstrap';
 export default class About extends Component {
+   constructor(props) {
+      super(props);
+   }
    moveToSkillsSection = () => {
-
+      debugger
    }
 
    render() {
@@ -53,9 +56,9 @@ export default class About extends Component {
                   <Row className="text-center" style={{ display: "contents" }}>
 
                      <div className=" mt-4 text-center">
-                        <button type="button" className="btn btn-primary btn-circle btn-xl">My Resume</button>
-                        <button type="button" className="btn btn-secondary btn-circle btn-xl">My Work</button>
-                        <button type="button" onClick={() => this.moveToSkillsSection} className="btn btn-success btn-circle btn-xl">My Skills</button>
+                        <button type="button" className="btn btn-primary btn-circle btn-xl"><a className="smoothscroll" href="#resume">My Journey</a></button>
+                        <button type="button" className="btn btn-secondary btn-circle btn-xl"><a className="smoothscroll" href="#work">My Work</a></button>
+                        <button type="button" className="btn btn-success btn-circle btn-xl"><a className="smoothscroll" href="#skills">My Skills</a></button>
                      </div>
                   </Row>
                   <Row className="" style={{ display: "contents" }}>
