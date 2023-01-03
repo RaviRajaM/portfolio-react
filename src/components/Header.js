@@ -27,10 +27,12 @@ export default class Header extends Component {
               <h1 className="responsive-headline" style={{ color: "#f1a555" }}>I'm {resumeData.name}.</h1>
               <div style={{ fontSize: "35px", lineHeight: "30px", color: "#dbdbdb" }}> <TypistLoop interval={1500} >
                 {[
-                  'Software Engineer',
+                  'ServiceNow Developer',
+                  'ServiceNow Nerd',
+                  'ITSM Certified',
+                  'System Admin Certified',
                   'Front-End Web Developer',
                   'Cyber Security Enthusiast',
-                  'Grad Student at Ontario Tech'
                 ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
               </TypistLoop> </div>
               {/* <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a {resumeData.role}.{resumeData.roleDescription}

@@ -4,9 +4,7 @@ export default class About extends Component {
    constructor(props) {
       super(props);
    }
-   moveToSkillsSection = () => {
-      debugger
-   }
+
 
    render() {
       let resumeData = this.props.resumeData;
@@ -16,9 +14,9 @@ export default class About extends Component {
                <div className="container">
                   <div className="row">
 
-                     <div className="col-sm-3 md-3 mt-4 text-center">
+                     <div className="col-sm-3 md-3 mt-4 text-center custPadTop">
 
-                        <img className="profile-pic" src="images/profilepic.jpg" alt="raja's_profile_picture" />
+                        <img className="profile-pic" src="images/profilepic.jfif" alt="raja's_profile_picture" />
 
                      </div>
 
@@ -26,16 +24,16 @@ export default class About extends Component {
                         <div className="header-col text-center">
                            <h1 className="title-a"><span style={{ color: "crimson" }}> About Me</span></h1>
                         </div>
-                        <p>
+                        <div style={{ 'padding-top': "30px" }}>
                            {
                               resumeData.aboutme
-                           } {<br />}
+                           } {<br />} {<br />}
                            {
                               resumeData.aboutme1
-                           }{<br />}
+                           }{<br />} {<br />}
                            {
                               resumeData.aboutme2
-                           }{<br />}
+                           }{<br />} {<br />}
                            {
                               resumeData.aboutme3
                            }{<br />}
@@ -50,7 +48,7 @@ export default class About extends Component {
                               resumeData.aboutme6
                            }
                            <a href={resumeData.portfolioSourceCode[0].url} target="_blank" rel="noopener noreferrer"><i className={resumeData.portfolioSourceCode[0].className}></i></a>
-                        </p>
+                        </div>
                      </div>
                   </div>
                   <Row className="text-center" style={{ display: "contents" }}>
@@ -65,7 +63,7 @@ export default class About extends Component {
 
                      <div className=" mt-4">
                         <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love
-                        the logic and structure of coding and always strive to write elegant and efficient code, whetehr it be HTML,
+                           the logic and structure of coding and always strive to write elegant and efficient code, whetehr it be HTML,
                            CSS or JQuery. </p>
 
                      </div>

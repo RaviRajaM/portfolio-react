@@ -23,7 +23,7 @@ export default class Resume extends Component {
             <h4 className="vertical-timeline-element-subtitle">Chennai, India</h4>
             <p>
               Graduated with Honor's Bachelor's Degree in Information & Telecommunication Engineering
-    </p>
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -38,7 +38,7 @@ export default class Resume extends Component {
             <p>
               Worked as Front End Web Developer For Pepsico Client - collaborated from the Pilot Phase to the Transition.
               Debugged on key enhancements on security improvements in the application.
-    </p>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -53,7 +53,7 @@ export default class Resume extends Component {
               Worked as Full Stack Developer For Pepsico Client - Designed and developed robust, scalable software solutions in collaboration with team members.
               Integrated data from back-end services and databases.
               Staying plugged into emerging technology trends, and applying them into operations and activities.
-    </p>
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -68,7 +68,7 @@ export default class Resume extends Component {
             <h4 className="vertical-timeline-element-subtitle">Oshawa, ON, Canada</h4>
             <p>
               Graduating with Honor's Master's Degree in Information Technology Security
-    </p>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -83,7 +83,7 @@ export default class Resume extends Component {
               Developed a custom GitHub Repo Search Application using ReactJs,
               integrated the Application with octokit/core Restful Webservice to display the Results.
               Framework & Technology: VisualStudio, Javascript, ReactJs, Axios for Integrating API.
-    </p>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -98,7 +98,23 @@ export default class Resume extends Component {
               Worked as Intern for Custom Kitchen Manufacturing Client - Developed Higher Order Reusable React Components.
               Integrated application interface code using JavaScript following React.js workflows.
               Acquired knowledge on React Hooks, Redux and Component Life Cycle.
-    </p>
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentArrowStyle={{ borderLeft: '7px solid  rgb(33, 150, 243)' }}
+            date="2021 July - 2022 December"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Full Time - PAMT COnsulting Inc.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
+            <p>
+              Worked as a ServiceNow Consulatant - To design, integrate, deploy, operate, and maintaining
+              ServiceNow instances and its capabilities including, but not limited to, form configuration,
+              workflow administration, reporting, data imports, custom scripting.
+            </p>
           </VerticalTimelineElement>
 
         </VerticalTimeline>

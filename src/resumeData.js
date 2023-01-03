@@ -46,15 +46,13 @@ let resumeData = {
       "className": "fa fa-twitter fa-3x"
     }
   ],
-  "aboutme": `Hey! I am a grad student at Ontario Tech University, Oshawa.`,
-  "aboutme1": "Worked as a Programmer Analyst in Cognizant Technology Solutions, where I have worked on multiple projects as Front-end Web Developer.",
-  "aboutme2": "Over the years I have acquired a particular set of skills that are a nightmare to debug the bug.",
-  "aboutme3": "I love applying responsive design principles and watching my web pages shrink into mobile screens. ",
+  "aboutme": `Hey! Nice meeting you. I am Ravi, Certified System Administrator Professional with more than 4.5 years of ServiceNow experience at PAMT Consulting and Cognizant Technology Solutions India. With deep functional and technical knowledge of the Service Now platform as well as experience delivering medium to large-scale Service Now implementations.`,
+  "aboutme1": "Worked as a ServiceNow Consultant in PAMT Consulting, where I have worked on multiple projects as designing, integrating, deploy, operating, and maintaining ServiceNow instances and its capabilities including, but not limited to, form configuration, workflow administration, reporting, data imports, custom scripting.",
+  "aboutme2": "Over the years I have acquired a particular set of skills that are a nightmare to debug the issue.",
+  "aboutme3": "I love applying responsive design principles and watching my web pages shrink into mobile screens.",
   "aboutme4": "I think in a way I'm kind of like those web pages; I'm moldable, but I still keep my creative flair intact.",
   "aboutme5": "I go for trekking and enjoy trying new cusines in my free time.",
   "aboutme6": "You can use this React Portfolio Template from my GitHub Source Code.",
-  "address": "India",
-  "website": "https://rbhatia46.github.io",
   "education": [
     {
       "UniversityName": "Ontario Tech University",
@@ -99,11 +97,6 @@ let resumeData = {
         "level": "95"
       },
       {
-        "name": "Sass",
-        "class": "devicon-sass-original",
-        "level": "75"
-      },
-      {
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain",
         "level": "85"
@@ -131,16 +124,6 @@ let resumeData = {
       {
         "name": "Angular",
         "class": "devicon-angularjs-plain",
-        "level": "80"
-      },
-      {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": "80"
-      },
-      {
-        "name": "Java",
-        "class": "devicon-java-plain",
         "level": "80"
       },
       {
